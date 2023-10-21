@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainNav{
+    /* background-color: rgba(84,172,194,255); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    background-color: rgba(84,172,194,255) ;
+    display: flex;
+    flex-direction: column;
+
+}
+.mainNav img{
+    width: 100px;
+}
+.navSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+.navSection a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navSection a:hover{
+    color: #48bd9f;
+   border-bottom: 1px solid #48bd9f;
+   padding: 0 0 10px 0;   
+}
+.Loginbtn{
+    background-color: transparent;
+    border-color: white;
+    padding: 10px;
+    width: 90px;
+    color: white;
+}
+.heading{
+    text-align: center;
+    color: #ffffff;
+    font-size: x-large;
+    padding: 20px;
+}
+.Subheading{
+    text-align: center;
+    color: #e2f4f0;
+    padding: 10px 10px 30px 10px;
+
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f7f7f7;
+    flex-direction: column;
+    
+}
+.mainSection{
+    background-color:#ffffff;
+    width: 75%;
+    margin: 20px;
+    border: 1px solid #a6a5a5;
+}
+.AppSection{
+    margin: 20px;
+    display: flex;
+    width: 95%;
+}
+.selectedApp{
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.iconMain{
+    margin: 0 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px #dbdbdb;
+}
+.button{
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #f7f7f7;
+    height: 30px;
+}
+.button1{
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #f7f7f7;
+    height: 30px;
+}
+
+
+
+
+form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    margin: 0 0 30px;
+  }
+  
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+  
+
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  form.nosubmit {
+   border: none;
+   padding: 0;
+   height: 50px;
+  }
+  .nosubmit{
+    width: 100%;
+  }
+  input.nosubmit {
+    border: 1px solid #555;
+    width: 100%;
+    padding: 9px 4px 9px 40px;
+     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+  .DropMain{
+    background:#f7f7f7;
+    color:black;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    
+  }
+  .DropMain label{
+    width: 100px;
+    padding: 0 10px;
+    color: #c0c0c0;
+  }
+  
+  select{
+    border:none;
+    padding: 10px 40px 10px 10px;
+    background:#f7f7f7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 50px;
+    
+  }
+  
+  select:focus{
+    outline:none;
+  }
+  .option{
+    padding: 0 10px 0 10px;
+    background-color: red;
+  }
+  .PerfectHeading{
+    background-color: #e3e3e3;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+  }
+  .cardMain{
+
+    margin: 40px 10px 30px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 45%;
+    height: 50vh;
+    background-color: #de593c;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.card:nth-child(2) {
+    background-color: #3d599b; 
+  }
+  .card:nth-child(3) {
+    background-color:#2fb88f; 
+  }
+  .card:nth-child(4) {
+    background-color:#2594c5; 
+  }
+.addIcons{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+.icons{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addIcons span{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+.addIconsHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+.Connectbtn{
+    background-color: transparent;
+    color: #fefaf9;
+    padding: 12px;
+    width: 194px;
+    margin-top: 60px;
+    border: 1px solid #fefaf9;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.back{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moveforward{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#a7a6a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footermain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-top: 1px solid #acabab;
+    border-bottom: 1px solid #acabab;
+    padding-top: 10px;
+
+}
+.footermain img{
+    width: 150px;
+
+}
+.footermidSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.about{
+    color: #9c9c9c;
+}
+.copyright{
+    color: #acabab;
+}
+
+.footerIcons img{
+    width: 30px;
+}
